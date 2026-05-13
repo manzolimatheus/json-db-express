@@ -1,0 +1,34 @@
+[
+  {
+    "users": [
+      {
+        "field": "email",
+        "type": "string",
+        "required": true,
+        "unique": true
+      }
+    ]
+  },
+  {
+    "posts": [
+      {
+        "field": "title",
+        "type": "string",
+        "required": true,
+        "unique": false
+      },
+      {
+        "field": "content",
+        "type": "string",
+        "required": true,
+        "unique": false
+      },
+      {
+        "field": "authorId",
+        "type": "number",
+        "required": true,
+        "unique": false
+      }
+    ]
+  }
+]
