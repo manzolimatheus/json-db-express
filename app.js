@@ -3,6 +3,8 @@ const { startEngine, Table } = require('./database-engine');
 const app = express();
 const port = 3000;
 
+app.use(express.json());
+
 /**
  * Endpoints de exemplo para testar a funcionalidade do banco de dados simples.
  */
